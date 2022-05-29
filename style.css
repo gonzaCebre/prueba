@@ -3,17 +3,12 @@
     grid-template-rows: repeat(6, 150px);
     grid-template-columns: repeat(4, 1fr);
 
-/*     grid-template-areas: 
-        "caja1 caja1 caja1 caja1"
-        "caja2 caja2 caja5 caja5 "
-        "caja3 caja3 caja3 caja3"
-        "caja4 caja4 caja4 caja4"
-    ; */
+
 }
 
 .header {
     grid-area: 1/1/2/4;
-    background-color: blue;
+    background-color: gray;
 }
 
 .section1 {
